@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #D5E1EF;
+}
+
+.card {
+  /* height: 490px; */
+  width: 320px;
+  box-shadow: 1px 1px 16px 0px rgba(0, 0, 0, 0.311);
+  background-color: #fff;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 25px;
+  /* margin: 50px; */
+}
+
+.card h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #1f3251;
+  margin-top: 15px;
+}
+
+.card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #68778d;
+  text-align: center;
+  margin-top: 15px;
+}
