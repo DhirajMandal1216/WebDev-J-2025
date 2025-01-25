@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F3E5D8;
+}
+
+.recipe-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-box {
+  margin-block: 120px;
+  width: 735px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==================== Recipe Image ==================== */
+.recipe-image {
+  width: 655px;
+  height: 300px;
+  margin: 40px auto 0;
+}
+
+.recipe-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* ==================== Recipe Title and Description ==================== */
+.recipe-title {
+  margin: 40px 0px 20px 40px;
+  font-weight: 400;
+  font-family: "Young Serif", serif;
+  font-size: 38px;
+  color: #302d2c;
+}
+
+.recipe-description {
+  margin: 0px 40px 0;
+  font-size: 16px;
+  font-family: "Outfit", serif;
+  color: #5f574e;
+}
+
+/* ==================== Preparation Time ==================== */
+.preparation-time {
+  width: 660px;
+  height: 180px;
+  margin: 20px 40px 0;
+  background-color: rgb(255, 245, 250);
+  border-radius: 10px;
+}
+
+.preparation-title {
+  font-weight: 600;
+  font-family: "Outfit", serif;
+  margin: 20px 0 0 25px;
+  color: #7b284f;
+}
+
+.preparation-list {
+  margin: 5px 0 0 50px;
+  color: #5f574e;
+  font-size: 16px;
+  font-family: "Outfit", serif;
+}
+
+.preparation-list li {
+  padding: 10px 0 0 15px;
+}
+
+.preparation-label {
+  font-size: 16px;
+  font-family: "Outfit", serif;
+  color: #6E6562;
+  font-weight: 600;
+}
+
+.preparation-value {
+  font-family: "Outfit", serif;
+  color: #5f574e;
+}
+
+/* ==================== Ingredients ==================== */
+.ingredients-section {
+  margin: 30px 40px 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.ingredients-title {
+  font-family: "Young Serif", serif;
+  color: #854632;
+  font-weight: 400;
+}
+
+.ingredients-list {
+  margin: 15px 25px 0;
+  color: #5f574e;
+  font-size: 16px;
+  font-family: "Outfit", serif;
+}
+
+.ingredients-list li {
+  padding: 0 0 15px 15px;
+}
+
+/* ==================== Instructions ==================== */
+.instructions-section {
+  margin: 30px 40px 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.instructions-title {
+  font-family: "Young Serif", serif;
+  color: #854632;
+  font-weight: 400;
+}
+
+.instructions-list {
+  margin: 15px 25px 0;
+}
+
+.instructions-list li {
+  padding: 0 0 15px 15px;
+  font-family: "Outfit", serif;
+  color: #854632;
+}
+
+.instruction-step {
+  font-family: "Outfit", serif;
+  color: #6E6562;
+  font-weight: 600;
+}
+
+.instruction-details {
+  font-family: "Outfit", serif;
+  color: #5f574e;
+}
+
+/* ==================== Nutrition ==================== */
+.nutrition-section {
+  margin: 30px 40px 0;
+  padding-bottom: 15px;
+}
+
+.nutrition-title {
+  font-family: "Young Serif", serif;
+  color: #854632;
+  font-weight: 400;
+}
+
+.nutrition-notes {
+  font-size: 16px;
+  font-family: "Outfit", serif;
+  color: #5f574e;
+  margin-top: 15px;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+
+.nutrition-table td {
+  padding: 10px 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.nutrition-item {
+  font-family: "Outfit", serif;
+  color: #5f574e;
+}
+
+.nutrition-value {
+  font-family: "Outfit", serif;
+  color: #333;
+}
+
+.nutrition-table .highlight {
+  font-weight: bold;
+  color: #8b4513;
+}
