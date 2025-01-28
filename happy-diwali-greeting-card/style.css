@@ -5,6 +5,7 @@
   font-family: "Salsa", serif;
 }
 
+/* ==============================section 1st start====================== */
 .container {
   width: 100%;
   height: 150vh;
@@ -39,6 +40,7 @@ audio::-webkit-media-controls-panel {
   color: #000;
 }
 
+/* ====================section 1st media querie================= */
 @media(max-width:420px) {
 
   .container {
@@ -72,7 +74,7 @@ audio::-webkit-media-controls-panel {
 
 }
 
-/* Section 2 */
+/* =========================================Section 2 start======================================== */
 
 .container2 {
   width: 100%;
@@ -118,7 +120,7 @@ audio::-webkit-media-controls-panel {
   margin-inline: 250px;
 }
 
-
+/* ===========================section 2nd media querie ====================*/
 @media(max-width:420px) {
 
   .container2 {
@@ -156,7 +158,7 @@ audio::-webkit-media-controls-panel {
   }
 }
 
-/* container3 */
+/* =========================section 3rd start======================== */
 .container3 {
   width: 100%;
   height: 145vh;
@@ -206,6 +208,7 @@ audio::-webkit-media-controls-panel {
   margin-top: 30px;
 }
 
+/* =======================section 3rd media querie======================= */
 
 @media(max-width:420px) {
 
@@ -251,6 +254,7 @@ audio::-webkit-media-controls-panel {
   }
 }
 
+/* =================================section 4th start================================ */
 .container4 {
   width: 100%;
   height: 150vh;
@@ -302,6 +306,7 @@ audio::-webkit-media-controls-panel {
   font-weight: 400;
 }
 
+/* =====================section 4th media querie =======================*/
 @media(max-width:420px) {
   .container4 {
     height: 50vh;
